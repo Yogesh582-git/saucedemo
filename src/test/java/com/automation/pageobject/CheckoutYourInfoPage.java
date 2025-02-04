@@ -41,4 +41,7 @@ public class CheckoutYourInfoPage extends BasePage {
 	public void zipCode(Double n) {
 		zipCode.sendKeys(String.valueOf(n));
 	}
+	public void contin() {
+		conti.click();
+	}
 }

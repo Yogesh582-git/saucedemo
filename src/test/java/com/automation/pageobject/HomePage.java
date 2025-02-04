@@ -38,4 +38,10 @@ public class HomePage extends BasePage {
 		cart.click();
 	}
 
+	public void sauseBlight() {
+		sauceBLight.click();
+	}
+	public void sauceBshirt() {
+		sauceBTshirt.click();
+	}
 }
