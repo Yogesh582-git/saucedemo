@@ -26,12 +26,19 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//button[@data-test='add-to-cart-sauce-labs-backpack']")
 	WebElement sauceBackpacksAddtoCart;
+	
+	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-onesie']")
+	WebElement sauseLabOnesie;
 
 	@FindBy(xpath = "//a[@class='shopping_cart_link']")
 	WebElement cart;
 
 	public void addtoCartSBP() {
 		sauceBackpacksAddtoCart.click();
+	}
+	
+	public void addtoCartSLO() {
+		sauseLabOnesie.click();
 	}
 
 	public void clickCart() {
