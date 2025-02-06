@@ -19,9 +19,16 @@ public class CartPage extends BasePage {
 
 	@FindBy(xpath = "//button[text()='Continue Shopping']")
 	WebElement conShopping;
+	
+	@FindBy(xpath ="//button[@id='remove-sauce-labs-onesie']")
+	WebElement sauceLabOnsie;
 
 	public String cartTextValidation() {
 		return cartText.getText();
+	}
+	
+	public void sauceLS() {
+		sauceLabOnsie.click();
 	}
 
 	public void checkOutClk() {
