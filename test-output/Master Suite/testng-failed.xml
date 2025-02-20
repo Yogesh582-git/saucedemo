@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="master"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.testcases.T0001_LogintoApplication">
+        <methods>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- com.automation.testcases.T0001_LogintoApplication -->
+      <class name="com.automation.testcases.T0003_SelectandDeselectItems">
+        <methods>
+          <include name="deSelect"/>
+        </methods>
+      </class> <!-- com.automation.testcases.T0003_SelectandDeselectItems -->
+      <class name="com.automation.testcases.T0002_MultiSelection">
+        <methods>
+          <include name="loginApp"/>
+        </methods>
+      </class> <!-- com.automation.testcases.T0002_MultiSelection -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->

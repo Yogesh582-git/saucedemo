@@ -9,12 +9,15 @@ import com.automation.pageobject.HomePage;
 import com.automation.pageobject.LoginPage;
 
 public class T0001_LogintoApplication extends BaseClass {
-	@Test
+	@Test(groups = {"sanity","master"})
 	public void loginApp() {
+		
 		logger.info("============Home Page Launched========== ");
 		LoginPage lp= new LoginPage(driver);
-		lp.loginID("standard_user");
-		lp.password("secret_sauce");
+		lp.loginID(pr.getProperty("userName"));
+		lp.password(pr.getProperty("password"));
+//		lp.loginID(pr.getProperty("userName"));
+//		lp.password(pr.getProperty("password"));
 		lp.loginBtn();
 		
 		logger.info("============Cart Page Launched========== ");

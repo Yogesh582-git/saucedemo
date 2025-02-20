@@ -1,0 +1,15 @@
+2025-02-19 22:37:09.296 [main] INFO  com.automation.testcases.T0004_MultiLogin - ============Multi Login Launched========== 
+2025-02-19 22:37:10.769 [main] INFO  com.automation.testcases.T0004_MultiLogin - ============Multi Login Launched========== 
+2025-02-19 22:37:11.699 [main] INFO  com.automation.testcases.T0004_MultiLogin - ============Multi Login Launched========== 
+2025-02-19 22:37:17.813 [main] INFO  com.automation.testcases.T0004_MultiLogin - ============Multi Login Launched========== 
+2025-02-19 22:37:19.249 [main] INFO  com.automation.testcases.T0004_MultiLogin - ============Multi Login Launched========== 
+2025-02-19 22:37:24.814 [main] INFO  com.automation.testcases.T0001_LogintoApplication - ============Home Page Launched========== 
+2025-02-19 22:37:26.030 [main] INFO  com.automation.testcases.T0001_LogintoApplication - ============Cart Page Launched========== 
+2025-02-19 22:37:26.490 [main] INFO  com.automation.testcases.T0001_LogintoApplication - ============Login Page Launched========== 
+2025-02-19 22:37:27.536 [main] INFO  com.automation.testcases.T0001_LogintoApplication - ******CO page launch started*******
+2025-02-19 22:37:32.308 [main] INFO  com.automation.testcases.T0003_SelectandDeselectItems - ============Home Page Launched========== 
+2025-02-19 22:37:33.439 [main] INFO  com.automation.testcases.T0003_SelectandDeselectItems - ============HP Page Launched========== 
+2025-02-19 22:37:33.494 [main] ERROR com.automation.testcases.T0003_SelectandDeselectItems - error log
+2025-02-19 22:37:38.146 [main] INFO  com.automation.testcases.T0002_MultiSelection - ******lp page launch started*******
+2025-02-19 22:37:39.395 [main] INFO  com.automation.testcases.T0002_MultiSelection - ******hp page launch started*******
+2025-02-19 22:37:39.430 [main] ERROR com.automation.testcases.T0002_MultiSelection - error log

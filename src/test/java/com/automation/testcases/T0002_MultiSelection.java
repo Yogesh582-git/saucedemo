@@ -12,13 +12,13 @@ import com.automation.pageobject.HomePage;
 import com.automation.pageobject.LoginPage;
 
 public class T0002_MultiSelection extends BaseClass {
-	@Test
+	@Test(groups = {"master"})
 	public void loginApp() {
 		try {
 			logger.info("******lp page launch started*******");
 			LoginPage lp = new LoginPage(driver);
 			lp.loginID("standard_user");
-			lp.password("secret_sauce");
+			lp.password("secret_sauceaaa");
 			lp.loginBtn();
 
 			logger.info("******hp page launch started*******");
