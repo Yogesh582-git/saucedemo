@@ -32,6 +32,19 @@ public class HomePage extends BasePage {
 
 	@FindBy(xpath = "//a[@class='shopping_cart_link']")
 	WebElement cart;
+	
+	@FindBy(xpath = "//button[text()='Open Menu']")
+	WebElement menu;
+	
+	
+	@FindBy(xpath = "//a[text()='Logout']")
+	WebElement logOutbtn;
+	public void clMenu() {
+		menu.click();
+	}
+	public void logoutBtn() {
+		logOutbtn.click();
+	}
 
 	public void addtoCartSBP() {
 		sauceBackpacksAddtoCart.click();

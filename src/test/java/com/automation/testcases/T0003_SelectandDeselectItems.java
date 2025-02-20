@@ -11,14 +11,14 @@ import com.automation.pageobject.HomePage;
 import com.automation.pageobject.LoginPage;
 
 public class T0003_SelectandDeselectItems extends BaseClass {
-	@Test
+	@Test(groups= {"smoke","master"})
 	public void deSelect() {
 
 		try {
 
 			logger.info("============Home Page Launched========== ");
 			LoginPage lp = new LoginPage(driver);
-			lp.loginID("standard_user");
+			lp.loginID("standard_useraaa");
 			lp.password("secret_sauce");
 			lp.loginBtn();
 
